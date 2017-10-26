@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [smoke test]">
+  <parameter name="browser" value="chrome"/>
+  <test name="Automation Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testScripts.Login">
+        <methods>
+          <include name="checkLogin1"/>
+          <include name="checkLogin2"/>
+          <include name="verifyHomePage"/>
+        </methods>
+      </class> <!-- testScripts.Login -->
+    </classes>
+  </test> <!-- Automation Test(failed) -->
+</suite> <!-- Failed suite [smoke test] -->
